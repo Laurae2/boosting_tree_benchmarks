@@ -1,0 +1,18 @@
+[LightGBM] [Warning] Config file lightgbm_06.conf doesn't exist, will ignore
+[LightGBM] [Info] Finished loading parameters
+[LightGBM] [Info] Finished loading data in 21.518779 seconds
+[LightGBM] [Info] Number of postive: 5564616, number of negative: 4935384
+[LightGBM] [Info] Number of data: 10500000, number of features: 28
+[LightGBM] [Info] Finished initializing training
+[LightGBM] [Info] Started training...
+[LightGBM] [Info] 1.522037 seconds elapsed, finished iteration 1
+[LightGBM] [Info] 3.055787 seconds elapsed, finished iteration 2
+[LightGBM] [Info] 4.516954 seconds elapsed, finished iteration 3
+[LightGBM] [Info] 5.957433 seconds elapsed, finished iteration 4
+[LightGBM] [Info] 7.681607 seconds elapsed, finished iteration 5
+[LightGBM] [Info] 9.161162 seconds elapsed, finished iteration 6
+[LightGBM] [Info] 10.603493 seconds elapsed, finished iteration 7
+[LightGBM] [Info] 12.139608 seconds elapsed, finished iteration 8
+[LightGBM] [Info] 13.692205 seconds elapsed, finished iteration 9
+[LightGBM] [Info] 15.118781 seconds elapsed, finished iteration 10
+[LightGBM] [Info] Finished training
