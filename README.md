@@ -11,7 +11,7 @@ Speed:
 | xgboost | Fast + Lossguide | 12 | 916.89 |
 | xgboost | Fast + Depthwise | 1 | 3891.74 |
 | xgboost | Fast + Depthwise | 6 | 1312.95 |
-| xgboost | Fast + Depthwise | 12 | 1308.30 |
+| xgboost | Fast + Depthwise | 12 | 1038.30 |
 | LightGBM | None | 1 | 2437.73 |
 | LightGBM | None | 6 | 592.61 |
 | LightGBM | None | 12 | 546.24 |
