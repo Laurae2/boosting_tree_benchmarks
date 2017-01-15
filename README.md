@@ -2,18 +2,22 @@
 
 Speed:
 
-* xgboost fast lossguide, 1 thread: 3600.66s
-* xgboost fast lossguide, 6 threads: 1147.86s
-* xgboost fast lossguide, 12 threads: 916.89s
-* xgboost fast depthwise, 1 thread: 3891.74s
-* xgboost fast depthwise, 6 threads: 1312.95s
-* xgboost fast depthwise, 12 threads: 1038.3s
-* lightgbm, 1 thread: 2437.73s
-* lightgbm, 6 threads: 592.61s
-* lightgbm, 12 threads: 546.24s
+| Model | Mode | Threads | Speed (s) |
+| :---: | :---: | :---: | :---: |
+| xgboost | Fast + Lossguide | 1 | 3600.66 |
+| xgboost | Fast + Lossguide | 6 | 1147.86 |
+| xgboost | Fast + Lossguide | 12 | 916.89 |
+| xgboost | Fast + Depthwise | 1 | 3891.74 |
+| xgboost | Fast + Depthwise | 6 | 1312.95 |
+| xgboost | Fast + Depthwise | 12 | 1308.30 |
+| LightGBM | None | 1 | 2437.73 |
+| LightGBM | None | 6 | 592.61 |
+| LightGBM | None | 12 | 546.24 |
 
 AUC:
 
-* xgboost fast lossguide: 0.845617
-* xgboost fast depthwise: 0.843080
-* lightgbm: 0.845319
+| Model | Mode | AUC |
+| :---: | :---: | :---: |
+| xgboost | Fast + Lossguide | 0.845617 |
+| xgboost | Fast + Depthwise | 0.843080 |
+| LightGBM | None | 0.845319 |
