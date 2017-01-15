@@ -1,5 +1,7 @@
 # boosting_tree_benchmarks
 
+Data: Higgs (10.5M observations)
+
 Speed:
 
 | Model | Mode | Threads | Speed (s) |
